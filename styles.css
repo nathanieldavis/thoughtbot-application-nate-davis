@@ -45,3 +45,39 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
 }
+
+/* NAVBAR COMPONENT
+   ================================================ */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px 4%;
+	background-color: var(--nav-bg);
+}
+
+.nav-logo {
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+.nav-logo p {
+	color: var(--red);
+	font-weight: 600;
+	font-size: 28px;
+	padding-left: 3%;
+}
+.nav-logo .logo {
+	cursor: pointer;
+  width: 62px;
+  height: 62px;
+}
+
+.nav-links {
+	list-style: none;
+}
+.nav-links li {
+	display: inline-block;
+	padding: 0px 16px;
+	transition: all 0.1s ease 0s;
+}
