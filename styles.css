@@ -81,3 +81,27 @@ header {
 	padding: 0px 16px;
 	transition: all 0.1s ease 0s;
 }
+
+.nav-cta-mobile {
+	display: none;
+}
+.nav-icon-mobile div {
+	width: 35px;
+  height: 5px;
+  background-color: var(--red);
+  margin: 6px 0;
+}
+
+
+/* RESPONSIVE STYLES
+   ================================================ */
+@media only screen and (max-width: 876px) {
+  .nav-logo p, .nav-links, .nav-cta .cta{
+    display: none;
+  }
+	.nav-cta-mobile {
+		display: flex;
+		align-items: center;
+		flex-wrap: nowrap;
+	}
+}
